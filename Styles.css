@@ -35,12 +35,15 @@ header div {
 
 .social-img img {
     padding-right: 3px;
-    position: relative;
+}
+
+.facebook {
+    padding-top: -5px;
 }
 
 .main {
     width: 960px;
-    height: 1200px;
+    height: 2000px;
     background-color: white;
     border: solid black 1px;
     -webkit-box-shadow:  1px 1px 15px black;
@@ -59,7 +62,6 @@ header div {
     display: inline-block;
     margin: auto;
     vertical-align: middle;
-
 }
 
 .main-nav {
@@ -90,4 +92,54 @@ header div {
     font-family: sans-serif;
     color: #0063ab;
     font-size: 20px;
+}
+
+.nav-bar {
+    display: inline-block;
+    position: relative;
+    left: 44%
+}
+
+.nav-bar div {
+    background-color: darkgrey;
+    width: 20px;
+    height: 15px;
+}
+
+.nav-bar div:first-child {
+    background-color: grey;
+}
+
+.three-frames {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+.three-frames div {
+    width: 276px;
+    margin: auto;
+}
+
+.frame {
+    height: 371px;
+    padding-left: 20px;
+}
+
+.small-nav {
+    left: 90%;
+}
+
+.small-nav div {
+    height: 8px;
+}
+
+.cosmetic {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+iframe {
+    left: 10%;
 }
