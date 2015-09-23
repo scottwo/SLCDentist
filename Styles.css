@@ -1,0 +1,93 @@
+body {
+    background-color: #005AA3;
+}
+
+header {
+    background-color: #004e8e;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    position: absolute;
+    border-bottom: solid royalblue 1px;
+    color: white;
+    font-size: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+header div {
+    display: inline-block;
+    border-right: solid royalblue 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+.social-nav-box {
+    position: relative;
+    border: none;
+    top: 2px;
+}
+
+.social-img img {
+    padding-right: 3px;
+    position: relative;
+}
+
+.main {
+    width: 960px;
+    height: 1200px;
+    background-color: white;
+    border: solid black 1px;
+    -webkit-box-shadow:  1px 1px 15px black;
+    -moz-box-shadow:  1px 1px 15px black;
+    box-shadow:  1px 1px 15px black;
+    margin: auto;
+    top: 45px;
+    position: relative;
+}
+
+.logo-nav {
+    margin: 3%;
+}
+
+.logo-nav div{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+
+}
+
+.main-nav {
+    width: 580px;
+}
+
+@media (max-width: 1000px) {
+    header {
+        height: 40px;
+    }
+    .main {
+        width: 95%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .hidden-nav {
+        display: block;
+    }
+}
+
+.hidden-nav {
+    display: none;
+}
+
+.main-nav div {
+    padding-left: 30px;
+    font-family: sans-serif;
+    color: #0063ab;
+    font-size: 20px;
+}
